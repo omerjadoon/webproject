@@ -457,6 +457,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
         <!-- Back top -->
         <a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>

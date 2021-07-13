@@ -1,0 +1,1 @@
+ mysql --host=us-cdbr-east-04.cleardb.com --user=b9063e4200ca3b --password=b17552fc --reconnect heroku_b409b31681381b6
