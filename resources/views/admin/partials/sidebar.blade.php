@@ -57,9 +57,9 @@
                                     <li>
                                         <a class="{{$innerrequest=='city' ? 'active' : ''}}" href="{{route('city_index')}}">City</a>
                                     </li>
-                                    <li>
+                                  {{--  <li>
                                         <a class="{{$innerrequest=='media' ? 'active' : ''}}" href="{{route('mediatype_index')}}">Media Type </a>
-                                    </li>
+                                    </li>--}}
                                     
                                 </ul>
 
