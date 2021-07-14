@@ -74,7 +74,7 @@ class LandingController extends Controller
             Mail::send('emails.contact-us',['data' => $data], function($message) use ($data)
                {
                 $message->from($data['email'], $data['name']);
-                $message->to('hasham@mage-io.com')->subject('Contact Us Request');
+                $message->to('bigprofitads@gmail.com')->subject('Contact Us');
                });
             $contact = new Contactus;
             $contact->name = $request->name;
