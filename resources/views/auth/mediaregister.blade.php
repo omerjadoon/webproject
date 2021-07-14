@@ -149,11 +149,11 @@ input[type=checkbox]:checked + label {
                        <div class="col-6">
                         <label class="col-form-label">T-Shirt Size</label>
                          <select class="custom-select" name="size">
-                            <option value="S" {{\Request::get('size')=='S' ? 'selected' : ''}}>Small</option>
-                            <option value="M" {{\Request::get('size')=='M' ? 'selected' : ''}}>Medium</option>
-                            <option value="L" {{\Request::get('size')=='L' ? 'selected' : ''}}>Large</option>
-                            <option value="XL" {{\Request::get('size')=='XL' ? 'selected' : ''}}>Extra Large</option>
-                            <option value="XXL" {{\Request::get('size')=='XXL' ? 'selected' : ''}}>Double XXL</option>
+                            <option value="S" {{\Request::get('size')=='S' ? 'selected' : ''}}>S</option>
+                            <option value="M" {{\Request::get('size')=='M' ? 'selected' : ''}}>M</option>
+                            <option value="L" {{\Request::get('size')=='L' ? 'selected' : ''}}>L</option>
+                            <option value="XL" {{\Request::get('size')=='XL' ? 'selected' : ''}}>XL</option>
+                            <option value="XXL" {{\Request::get('size')=='XXL' ? 'selected' : ''}}>XXL</option>
                          </select>
                        </div>
                        <div class="col-6">

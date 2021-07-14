@@ -18,7 +18,7 @@ class CreateMediaDetailsTable extends Migration
             $table->bigIncrements('id');
             $table->string('website_link');
             $table->string('buisness_name');
-            $table->string('additional_no');
+            $table->string('additional_no')->nullable();
             $table->enum('size',['S','M','L','XL','XXL']);
             $table->enum('m_type',['Radio','TV','Magazine Publisher','Newspaper Publisher','Broadcast TV or Cable','Internet TV',
             'Affiliate Marketer','Influencer','Vlogger','Blogger'])->nullable();

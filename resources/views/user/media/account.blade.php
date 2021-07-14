@@ -106,7 +106,7 @@ input[type=checkbox]:checked + label {
                                               <li class="mt-3">Address <span class="font-primary">{{Auth::user()->address}}</span></li>
                                               
                                                 <li class="mt-3">Media Type<span class="font-primary first_name_0 float">{{Auth::user()->mediadetail->m_type}}</span></li>
-                                              <li class="mt-3">T-Shirt Size<span class="font-primary first_name_0 float">@if(Auth::user()->mediadetail->size=='S') Small @elseif(Auth::user()->mediadetail->size=='M') Medium @elseif(Auth::user()->mediadetail->size=='L') Large @elseif(Auth::user()->mediadetail->size=='XL') Extra Large @elseif(Auth::user()->mediadetail->size=='XXL') Double XXL @endif</span></li>
+                                              <li class="mt-3">T-Shirt Size<span class="font-primary first_name_0 float">{{Auth::user()->mediadetail->size}} </span></li>
                                               <li class="mt-3">Best time for someone to call you<span class="font-primary first_name_0 float">{{Auth::user()->mediadetail->day.' '.Auth::user()->mediadetail->time}}</span></li>
                                             </br>
                                                <li class="mt-3"><hr></li>

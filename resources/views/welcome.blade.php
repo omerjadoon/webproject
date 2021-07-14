@@ -37,6 +37,8 @@
         }
 .pbh-10{
   padding: 10px;
+}.ft-35imp{
+  font-size: 35px !important;
 }
         video {
             max-width: 700px;
@@ -124,7 +126,7 @@
                 <div class="col-md-6 text-center">
                     <!-- Button to Open the Modal -->
 
-                    <button type="button" class="smoothScroll btn btn-success btn-lg wow fadeInUp" data-toggle="modal" data-target="#myModal" data-wow-delay="1.2s">Are you a Media</br> Company?</button>
+                    <button type="button" class="smoothScroll btn btn-success btn-lg wow fadeInUp" data-toggle="modal" data-target="#myModal" data-wow-delay="1.2s">Register as a Media</br> Company?</button>
                 </div>
                 <div class="col-md-3"></div>
             </div>
@@ -408,7 +410,7 @@
                       <input type="hidden" name="media" value="yes" >
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4 class="modal-title">Register today and get a <b>Free Big Profit Ads Tshirt</b> worth $29.99/- absolutely free!</h4>
+                        <h4 class="modal-title ft-35imp">Register today and get a <b>Free Big Profit Ads Tshirt</b> worth $29.99/- absolutely free!</h4>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
 
@@ -433,11 +435,11 @@
                                     <div class="col-md-12 pbh-10">
                                         <select class="form-control" name="size" required>
                                           <option selected value="">Select Size</option>
-                                          <option value="S">Small</option>
-                                          <option value="M">Medium</option>
-                                          <option value="L">Large</option>
-                                          <option value="XL">extra Large</option>
-                                          <option value="XXL">Double XXL</option>
+                                          <option value="S">S</option>
+                                          <option value="M">M</option>
+                                          <option value="L">L</option>
+                                          <option value="XL">XL</option>
+                                          <option value="XXL">XXL</option>
                                         </select>
                                     </div>
                                 </div>
