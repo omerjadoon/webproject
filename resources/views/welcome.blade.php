@@ -44,7 +44,7 @@
             max-width: 700px;
             min-height: 394px;
         }.mth-25{
-          margin-top: 30px !important;
+          margin-top: 100px !important;
         }
         .mr-top-50{
           margin-top: 53px !important;
