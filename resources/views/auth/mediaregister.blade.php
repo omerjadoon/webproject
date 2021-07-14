@@ -2,7 +2,10 @@
 @push('css')
     <style>
       
-
+      ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:rgb(223, 219, 219) !important;
+  opacity: 1; /* Firefox */
+}
 input[type=checkbox] {
   display: none;
 }
@@ -44,11 +47,11 @@ input[type=checkbox]:checked + label {
                       
                       </div>
                       <div class="col-5">
-                        <input class="form-control" type="text" name="first_name" required="" value="@if(!empty(\Request::get('f_name'))){{\Request::get('f_name')}} @else {{old('first_name')}} @endif" placeholder="First name">
+                        <input class="form-control" type="text" name="first_name" required="" value="@if(!empty(\Request::get('f_name'))){{\Request::get('f_name')}} @elseif(old('first_name')) {{old('first_name')}} @endif" placeholder="First name">
                       
                       </div>
                       <div class="col-5">
-                        <input class="form-control" type="text" name="last_name" required="" value="@if(!empty(\Request::get('l_name'))){{\Request::get('l_name')}} @else {{old('last_name')}} @endif" placeholder="Last name">
+                        <input class="form-control" type="text" name="last_name" required="" value="@if(!empty(\Request::get('l_name'))){{\Request::get('l_name')}} @elseif(old('last_name')) {{old('last_name')}} @endif" placeholder="Last name">
                     
                       </div>
                     </div>

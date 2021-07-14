@@ -1,6 +1,10 @@
 @extends('layouts.app',['title' => 'Login'])
 @push('css')
   <style>
+          ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:rgb(223, 219, 219) !important;
+  opacity: 1; /* Firefox */
+}
        .modal.fade {
             opacity: 1;
         }

@@ -1,4 +1,13 @@
 @extends('layouts.app',['title' => 'Register'])
+@push('css')
+<style>
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:rgb(223, 219, 219) !important;
+  opacity: 1; /* Firefox */
+}
+</style>
+    
+@endpush
 @section('login_signup')
 <div class="container-fluid p-0"> 
       <div class="row">
