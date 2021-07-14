@@ -46,10 +46,15 @@
         }.mth-25{
           margin-top: 30px !important;
         }
-
+        .mr-top-50{
+          margin-top: 53px !important;
+        }
         @media only screen and (max-width: 600px) {
             video {
                 max-width: 251px !important;
+            }
+            .img-med{
+              max-width: 119px;
             }
         }
     </style>
@@ -68,7 +73,7 @@
 
     <!-- Navigation section  -->
 
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" style="height: 100px !important">
         <div class="container">
 
             <div class="navbar-header">
@@ -77,10 +82,10 @@
           <span class="icon icon-bar"></span>
           <span class="icon icon-bar"></span>
         </button>
-                <a href="{{url('/')}}" class="navbar-brand smoothScroll"><img class="img-fluid" src="{{asset('user/assets/images/logo/logo.png')}}" alt="looginpage"></a>
+                <a href="{{url('/')}}" class="navbar-brand smoothScroll"><img class="img-fluid img-med" src="{{asset('admin/login/logo.png')}}" width="150px" alt="looginpage"></a>
             </div>
             <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right mr-top-50">
                     <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
                     <li><a href="#about" class="smoothScroll"><span>About</span></a></li>
                     @auth
