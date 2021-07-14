@@ -424,7 +424,7 @@
 
                         <div class="row">
                             <div class="col-md-6 text-center">
-                                <img class="img-thumbnail" src="{{asset('images/bfatshirt.PNG')}}" min-height="100px">
+                                <img class="img-thumbnail" src="{{asset('images/bfatshirtfinal.jpeg')}}" min-height="100px">
                             </div>
                             <div class="col-md-6">
                                 <div class="row">
