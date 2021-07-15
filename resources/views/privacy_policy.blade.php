@@ -32,7 +32,7 @@
     margin-top: 3rem;
   }
   .mr-top-50{
-          margin-top: 53px !important;
+          margin-top: 49px !important;
         }
       
         @media only screen and (max-width: 600px) {
@@ -70,7 +70,7 @@
           <span class="icon icon-bar"></span>
         </button>
         <a href="{{url('/')}}" class="navbar-brand smoothScroll"><img class="img-fluid img-med" src="{{asset('admin/login/logo.png')}}" width="150px" alt="looginpage"></a>   </div>
-        <div class="collapse navbar-collapse mr-top-50">
+        <div class="collapse navbar-collapse mr-top-50" style="background: white !important">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="{{url('/')}}" class="smoothScroll"><span>Home</span></a></li>
             <li><a href="{{url('/#about')}}" class="smoothScroll"><span>About</span></a></li>

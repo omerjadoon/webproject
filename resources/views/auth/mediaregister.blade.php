@@ -137,7 +137,7 @@ input[type=checkbox]:checked + label {
                      <div class="form-row">
                        <div class="col-6">
                     <label class="col-form-label">Phone #</label>
-                   <input class="form-control" type="text" name="phone" required="" value="{{old('phone')}}" placeholder="+923073286665">
+                   <input class="form-control" type="text" name="phone" required="" value="@if(!empty(\Request::get('ph_no'))){{\Request::get('ph_no')}} @elseif(old('phone')) {{old('phone')}} @endif" placeholder="+923073286665">
                      
                   </div>
                                      <div class="col-6">

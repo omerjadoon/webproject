@@ -5,7 +5,8 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -47,7 +48,7 @@
           margin-top: 100px !important;
         }
         .mr-top-50{
-          margin-top: 53px !important;
+          margin-top: 49px !important;
         }
         @media only screen and (max-width: 600px) {
             video {
@@ -55,6 +56,8 @@
             }
             .img-med{
               max-width: 119px;
+            }.mth-25{
+              margin-top:100px !important;
             }
         }
     </style>
@@ -84,8 +87,8 @@
         </button>
                 <a href="{{url('/')}}" class="navbar-brand smoothScroll"><img class="img-fluid img-med" src="{{asset('admin/login/logo.png')}}" width="150px" alt="looginpage"></a>
             </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right mr-top-50">
+            <div class="collapse navbar-collapse mr-top-50" style="background: white !important">
+                <ul class="nav navbar-nav navbar-right">
                     <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
                     <li><a href="#about" class="smoothScroll"><span>About</span></a></li>
                     @auth
@@ -112,7 +115,7 @@
             <div class="row">
 
                 <div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
-                    <h1 class="wow fadeInUp" data-wow-delay="0.6s">Want to get in touch directly? Call us today on <b>+1 (877) 432-4440
+                    <h1 class="wow fadeInUp" data-wow-delay="0.6s">Want to get in touch?</br>Call us<b>+1 (801) 615-0880
                     </b></h1>
                     <video loop="true" autoplay="autoplay" controls muted>
              <source  src="{{asset('landing/images/video.mp4')}}" type="video/mp4">
@@ -131,7 +134,7 @@
                 <div class="col-md-6 text-center">
                     <!-- Button to Open the Modal -->
 
-                    <button type="button" class="smoothScroll btn btn-success btn-lg wow fadeInUp" data-toggle="modal" data-target="#myModal" data-wow-delay="1.2s">Register as a Media</br> Company?</button>
+                    <button type="button" class="smoothScroll btn btn-success btn-lg wow fadeInUp" data-toggle="modal" data-target="#myModal" data-wow-delay="1.2s">Register today and get a </br> free T-shirt!</button>
                 </div>
                 <div class="col-md-3"></div>
             </div>
@@ -146,7 +149,7 @@
 
     <!-- About section -->
 
-    <section id="about">
+    {{-- <section id="about">
         <div class="container">
             <div class="row">
 
@@ -263,7 +266,7 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
     <!-- Gallery section -->
@@ -340,7 +343,7 @@
 
                     <div class="col-lg-offset-1 col-lg-10 section-title wow fadeInUp" data-wow-delay="0.4s">
                         <h1>Send a message</h1>
-                        <p>Get in touch with us today, we will get back to you within the work day! </p>
+                        <p>Get in touch with us today. </p>
                     </div>
 
                     <form action="#" method="post" class="wow fadeInUp" id="contact-form" data-wow-delay="0.8s">
@@ -437,6 +440,9 @@
                                     <div class="col-md-12 pbh-10">
                                         <input type="email" class="form-control" required placeholder="Enter Email" name="email" />
                                     </div>
+                                    <div class="col-md-12 pbh-10">
+                                      <input type="text" class="form-control" required placeholder="Enter Phone #" name="ph_no" />
+                                  </div>
                                     <div class="col-md-12 pbh-10">
                                         <select class="form-control" name="size" required>
                                           <option selected value="">Select Size</option>
