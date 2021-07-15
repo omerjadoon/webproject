@@ -149,25 +149,20 @@
 
     <!-- About section -->
 
-    {{-- <section id="about">
+    <section id="about">
         <div class="container">
             <div class="row">
 
-                <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="about-thumb">
-                        <h1>Background</h1>
-                        <p>Big Profit Ads connects businesses looking for exposure, with media companies looking to fill empty advertising slots - for a commission. We are a matchmaking service for you if you run a small or medium sized business and want
-                            to place your print, video or audio ads across various media outlets, for free, if you make money, they make money.
-                            </br>
-                            Sign up with us today and see what we have on offer!
-                            </br>
-                            Team Big Profit Ads</p>
+                        <h1>Need to start today? Call us!</h1>
+                        <p><b>+1 (801) 615-0880</b></p>
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-4 wow fadeInUp about-img" data-wow-delay="0.6s">
+                {{-- <div class="col-md-3 col-sm-4 wow fadeInUp about-img" data-wow-delay="0.6s">
                     <img src="{{asset('landing/images/about-img.png')}}" class="img-responsive img-circle" alt="About">
-                </div>
+                </div> --}}
 
                 <div class="clearfix"></div>
 
@@ -266,7 +261,7 @@
 
             </div>
         </div>
-    </section> --}}
+    </section>
 
 
     <!-- Gallery section -->
