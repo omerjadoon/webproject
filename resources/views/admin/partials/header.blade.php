@@ -73,8 +73,9 @@
                             <i class="fa fa-user fa-fw"></i> {{Session::get('name')}} <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu dropdown-user">
-                            <!-- <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                            <li><a href="{{route('change_pass_admin')}}"><i class="fa fa-key fa-fw"></i> Change Password</a>
                             </li>
+                            <!--
                             <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                             </li> -->
                             <li class="divider"></li>

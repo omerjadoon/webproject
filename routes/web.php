@@ -85,6 +85,8 @@ Route::namespace('Admin')->group(function () {
 	Route::group(['prefix' => 'admin', 'middleware' => ['admin']], function () {
 		Route::get('home','AdminController@home')->name('admin_home');
 		Route::get('logout','AdminController@logout')->name('admin_logout');
+		Route::get('change-password','AdminController@change_pass_admin')->name('change_pass_admin');
+		Route::match(['PUT','PATCH'],'change-password','AdminController@update')->name('change_pass_admin_upd');
 		Route::get('delete-user/{userid}','AdminController@del_user')->name('del_user');
 		//contact us
 		Route::get('contact-list','SettingController@contact_list')->name('contact_list');
