@@ -112,7 +112,7 @@ class SettingController extends Controller
     }
     public function city(){
         $data['state']=State::orderBy('created_at', 'desc')->get();
-        $data['city']=City::orderBy('created_at', 'desc')->paginate(12);
+        $data['cities']=City::orderBy('created_at', 'desc')->paginate(12);
         $data['page']='index';
         return view('admin.pages.city',$data);
     }

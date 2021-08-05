@@ -98,7 +98,7 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                @foreach($city as $key=>$city)
+                                                @foreach($cities as $key=>$city)
                                                 <tr>
                                                     <td >{{$key+1}}</td>
                                                     <td >{{$city->name}}</td>
@@ -116,7 +116,7 @@
                                     </div>
                                     <!-- /.table-responsive -->
                                     <div class="text-center">
-                                        {{$city->links()}}
+                                        {{$cities->links()}}
                                     </div>
                                   
                                 </div>
