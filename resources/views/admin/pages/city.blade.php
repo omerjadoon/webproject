@@ -86,7 +86,8 @@
                                 <!-- /.panel-heading -->
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                        {{-- id="dataTables-example" --}}
+                                        <table class="table table-striped table-bordered table-hover" >
                                             <thead>
                                                 <tr>
                                                     <th>#</th>
@@ -114,6 +115,9 @@
                                         </table>
                                     </div>
                                     <!-- /.table-responsive -->
+                                    <div class="text-center">
+                                        {{$city->links()}}
+                                    </div>
                                   
                                 </div>
                                 <!-- /.panel-body -->
